@@ -17,6 +17,12 @@ namespace _06_Array__String
                 Console.WriteLine(b);
             }
 
+            Array.Sort(a);
+            Console.WriteLine("-----Sorted Array --------");
+            foreach (var b in a)
+            {
+                Console.WriteLine(b);
+            }
         }
        static public void ShowArrays(int [,] ss)
         {
@@ -53,6 +59,8 @@ namespace _06_Array__String
 
             }
 
+            
+
         }
 
 
@@ -76,7 +84,10 @@ namespace _06_Array__String
             for (int i = 0; i < s.Length; i++)
             {
                 Console.WriteLine(s[i]);
+                
             }
+
+            Console.WriteLine(new String('=', 30));
 
         }
 
