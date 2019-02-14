@@ -27,10 +27,9 @@ namespace _06_Array__String
 
             Class1.SomeSplit("uifgduiggugo");
 
+            Console.WriteLine( "uyf".Equals("yiohoh"));
 
-
-
-
+           
             Console.ReadLine();
         }
     }

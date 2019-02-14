@@ -73,6 +73,8 @@ namespace _06_Array__String
             }
 
             Console.WriteLine(s);
+
+            
         }    
 
 
