@@ -42,6 +42,28 @@ namespace _06_Array__String
 
         }
 
+        static public void ShowArrays(int[][,] ss)
+        {
+
+            Console.WriteLine(ss.Rank);
+
+            for (int g = 0; g < ss.Length ; g++)
+            {
+
+
+            for (int i = 0; i < ss[g].GetLength(0); i++)
+            {
+                Console.WriteLine(ss[g][i, 0]);
+
+                for (int j = 1; j < ss.GetLength(1); j++)
+                {
+                    Console.WriteLine(ss[g][i, j]);
+                }
+            }
+
+            }
+        }
+
         static public void ShowArrays(int[][] ss)
         {
 
@@ -91,7 +113,10 @@ namespace _06_Array__String
 
             Console.WriteLine(new String('=', 30));
 
+            
         }
+    
+
 
 
         }
